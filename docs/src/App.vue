@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <yes-or-not></yes-or-not>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import YesOrNot from "./components/YesOrNot.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    YesOrNot,
+  },
+};
 </script>
 
 <style>
@@ -20,7 +19,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
